@@ -17,9 +17,10 @@ function StarShipCard() {
     return (
         <>
             <div className="cardbox" >
-                {starships.map(starship =>
+                {starships.map((starship, item) =>
                     <div
-                        key={starship.index} >
+                        key={item} >
+                     
                         <div className="card" >
                             <h2>{starship.name}</h2>
                             <div className="cardInfo" >
@@ -34,5 +35,6 @@ function StarShipCard() {
             </div>
         </>
     )
+    
 }
 export default StarShipCard
