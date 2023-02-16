@@ -25,7 +25,7 @@ Obtain all of the starships from the API and render in <App>a card for each star
 Cards should contain the text of the starship's name.
 
 * For example:
-[image]()
+![image](https://github.com/dseydahmetova/Starships-Lab/blob/main/Capture.PNG?raw=true)
 ## Hints
 - Hold the starship objects in state with the `useStatehook`, don't forget to initialize to an `empty` array!
 - Use the `useEffecthook` to make the AJAX request once the app loads.
